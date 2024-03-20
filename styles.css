@@ -11,5 +11,75 @@ nav{
     padding: 20px;
     justify-content: space-between;
     align-items: center;
+    color: #111122;
+}
+
+.logo h1{
+    font-family: "Pacifico", cursive;
+    letter-spacing: 1px;
+    font-size: 40px;
+    font-weight: 200;
+    color: #b37272;
+}
+
+.nav-items{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+
+}
+
+.nav-items a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: #111122;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    text-align: center;
+    background-color: #FFCCCC;
+    padding: 20px 0;
+    color: #111122;
+}
+
+.footer h4{
+    font-weight: 400;
 }
 
