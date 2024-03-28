@@ -175,9 +175,12 @@ h1{
     display: flex;
     gap: 20px;
     padding: 0px 20px;
+    align-items: start;
 }
 .contact-card{
     width: 50%;
+    margin-top: 40px;
+
 }
 
 .contact-card form{
@@ -187,9 +190,14 @@ h1{
 
 .contact-card input{
     padding: 10px;
+    border: 1px solid #d3cfcf;
+    border-radius: 8px;
 }
 .contact-card textarea{
     padding: 10px;
+    border: 1px solid #d3cfcf;
+    border-radius: 8px;
+    resize: vertical;
 }
 .form-control input, textarea{
     width: 100%;
@@ -197,36 +205,47 @@ h1{
 .contact-card form{
     gap:20px
 }
+.contact-details{
+    border: 1px solid #d3cfcf;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    
+}
+.contact-info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
 
+.contact-details h2{
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.contact-details h3{
+    font-weight: 500;
+    font-size: 16px;
+}
 
+a{
+    text-decoration: none;
+    color: #111122;
+}
 
+/* button */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.btn {
+    background-color: #FFCCCC;
+    border: none;
+    padding: 6px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+/* Footer */
 .footer{
     text-align: center;
     background-color: #FFCCCC;
